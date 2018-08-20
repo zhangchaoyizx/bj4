@@ -1,0 +1,119 @@
+  数据类型
+int  整数
+decimal   小数
+varchar 字符串
+datetime   日期时间
+
+  约束
+primary key 主键
+not null  非空
+unique  唯一
+foreign key  外键
+
+
+  创建表
+
+create table students(
+	id int unsigned primary key auto_increment,
+	name varchar(10)
+	age tinyint unsigned,
+	height decimal(5,2)
+)
+drop table students  删除表
+insert into students values(...)  插入单挑语句
+delete from 表名 where 条件  直接删除数据 
+
+ 缺陷状态
+    submited  submited   submited submited  submited submited  submited   submited  submited   submited submited submited submited submited submited   submited submited  submited sumited submited  提交
+    open  open  open open open open open open open open open open open open  open open open open open open open open open open open open open open open open open open open open open open 打开
+    rejectde  rejected  rejected rejected rejected rejected rejected   rejected 拒绝
+submited rejected open rejected submited 提交 submited 提交  submited 提交
+
+submited 提交  submited 提交   open打开  rejected 拒绝  submited  提交       open  打开    rejected   拒绝    resolved修复  resolved  resolved resolved  resolved resolved resolved resolved resolved resolved resolved resolved  resolved 修复  resolved 修复  resolved 修复  resolved  修复   resolved 修复resolved修复    closed closed  closed closed closed closed closed closed  closed 关闭   later  later  later   later  later  later  later  later  later later later later  later later later closed 关闭 submited 提交  rejected  拒绝   resolved 修复open 打开   later  推迟
+
+submited 提交
+open   打开
+rejected  拒绝
+reoslved  修复
+closed  关闭
+later  推迟
+ 
+index 索引
+sort
+reverse  逆序  相反  reverse reverse reverse reverse reverse reverse reverse reverse reverse reverse reverse reverse reverse reverse reverse 
+reverse 逆序  append 增加  delete 删除 delete 删除 append 增加 index  查询
+insert insert增加  insert  增加 insert 增加 insert 增加 reverse 逆序 reverse  逆序  reverse 逆序
+append 增加 insert remove  removeremove  remove remove remove removeremove  remove remove 删除 remove删除 remove remove remove 删除  count count index
+index 查询index 查询  index  reverse逆序remove  删除  remove 删除  count  
+append  增加  append 增加     submited  提交  submited 提交  submited
+submited  提交  submited  提交
+
+ login   login  login  login  用户名
+ 
+open  打开  pause 暂停  goBack  后退   refresh 刷新  click 点击 单击
+close 关闭 type 类型  
+
+open  pause  pause  pause pause 暂停  goBack  后退 GoBack goBack goBack
+refresh refresh refresh refresh refresh refresh refresh refresh refresh
+refresh 刷新  click click click close close  close  refresh goBack 后退 
+click click  click click click click click click click click click click
+点击 click  click 点击  单击 click refresh refresh 刷新 goBack 后退
+pause pause  pause pause 暂停  locator  定位程序  locator 定位程序
+locator locator locator locator locator locator locator locator 定位程序
+value value value  value value  submited submited submited  submited
+submited submited submited submited 提交 submited 提交 submited submited
+remove 删除 remove 删除 count  index查询  index 查询 index 查询 index 查询
+index 查询 index 查询 index 查询，指出，索引 insert insert insert insert 
+insert增加  insert 增加 insert 增加  insert insert insert insert insert
+insert insert insert insert insert insert insert 增加 reverse 逆序 reverse
+reverse 逆序 reverse 逆序 reverse reverse reverse 逆序 reverse reverse 
+reverse 逆序 remove submited 提交 index 索引 click paues pause pause 暂停
+pause 暂停 refresh refresh 刷新 refresh refresh  refresh refresh 刷新
+
+interpreter 解释器  screenshot 屏幕截图 screenshot
+
+
+
+UnitTest（单元测试）框架核心元素
+
+1、TestCase   测试用例
+
+2、TestSuite   测试套件
+
+3、TextTestRunner  执行测试用例套件
+
+4、Fixture   测试用例的搭建和销毁
+
+
+
+ 
+teardown 拆卸 teardown tewrdown teardown teardown  teardown  teardown 
+
+setup setup  setup  setup  setup setup  setup setup setup setup setup
+
+webdriver  自动化测试  webdriver webdriver driver 驱动程序 driver 驱动程序
+
+wait 等待 wait wait wait wait wait wait wait wait wait wait wait wait 等待
+
+discover discover 发现 discover discover discover discover discover discver 
+
+discover  discover 发现 discover  discover discover  discover dicover 发现
+
+submit submit submit 提交 submit sumit submit sumit sumit submit submit
+
+refresh 刷新 refresh refresh refresh  refresh refresh refresh refresh 刷新
+
+
+
+base base base base base base base  base base64
+
+decode  becode becode becode  becode 
+
+
+
+
+
+
+
+
+
